@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mockito on Middleware Warez</title>
+    <link>https://dywicki.pl/tag/mockito/</link>
+    <description>Recent content in Mockito on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 29 Apr 2020 11:58:55 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/tag/mockito/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mocking builders with Mockito answers</title>
+      <link>https://dywicki.pl/2020/04/mocking-builders-with-mockito-answers/</link>
+      <pubDate>Wed, 29 Apr 2020 11:58:55 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/04/mocking-builders-with-mockito-answers/</guid>
+      <description>I&amp;rsquo;ve been looking for some ways to use Mockito to with builder pattern using fluent calls. There are couple of articles online, however none of these addressed my case, a builder which receives calls and returns fully working object after a final &amp;lsquo;&amp;lsquo;build&amp;rsquo;&amp;rsquo; call without the need for further setup.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Screencast on Middleware Warez</title>
+    <link>https://dywicki.pl/tag/screencast/</link>
+    <description>Recent content in Screencast on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 11 Feb 2013 17:36:57 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/tag/screencast/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Karaf - pierwszy projekt z OSGi</title>
+      <link>https://dywicki.pl/2013/02/apache-karaf-pierwszy-projekt-z-osgi/</link>
+      <pubDate>Mon, 11 Feb 2013 17:36:57 +0000</pubDate>
+      <guid>https://dywicki.pl/2013/02/apache-karaf-pierwszy-projekt-z-osgi/</guid>
+      <description>&lt;p&gt;Piątego lutego miałem niekłamaną przyjemność podziwiać &lt;a href=&#34;http://jlaskowski.blogspot.com&#34;&gt;Jacka Laskowskiego&lt;/a&gt; prezentującego temat &lt;a href=&#34;http://warszawa.jug.pl/spotkania/20130205-osgi&#34;&gt;Praktyczne wprowadzenie do OSGi i Enterprise OSGi&lt;/a&gt;. Link do filmiku z prezentacją Jacka znajdziecie na &lt;a href=&#34;http://jlaskowski.blogspot.com/2013/02/nagranie-z-mojej-prezentacji-o.html&#34;&gt;Jego blogu&lt;/a&gt;. Tymczasem, poniżej wideo z Karafem. :-)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

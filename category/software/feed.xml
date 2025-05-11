@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Software on Middleware Warez</title>
+    <link>https://dywicki.pl/category/software/</link>
+    <description>Recent content in Software on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 09 May 2024 09:33:41 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/category/software/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Persistent serial identifiers with udev</title>
+      <link>https://dywicki.pl/2024/05/persistent-serial-identifiers-with-udev/</link>
+      <pubDate>Thu, 09 May 2024 09:33:41 +0000</pubDate>
+      <guid>https://dywicki.pl/2024/05/persistent-serial-identifiers-with-udev/</guid>
+      <description>It is not a secret that Linux can juggle USB serial ports between restarts. This is something which doesn&amp;rsquo;t happen on linux, but if you ever looked at internet forums on how to fix issue, you for sure found advice to use custom udev rules.</description>
+    </item>
+    <item>
+      <title>Nginx: verify OIDC token before rewrite</title>
+      <link>https://dywicki.pl/2020/11/nginx-verify-oidc-token-before-rewrite/</link>
+      <pubDate>Sun, 08 Nov 2020 22:26:42 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/11/nginx-verify-oidc-token-before-rewrite/</guid>
+      <description>A while ago I managed to get Nginx and OpenID Connect working together. Obviously, there is a commercial plugin provided by Nginx authors, but for simpler cases we can use a a simpler way with &lt;code&gt;auth_request&lt;/code&gt; which works nicely with OIDC token introspection served by for example Keycloak.</description>
+    </item>
+    <item>
+      <title>Maven deploy plugin 3.0.0-M1</title>
+      <link>https://dywicki.pl/2020/10/maven-deploy-plugin-3-0-0-m1/</link>
+      <pubDate>Tue, 27 Oct 2020 22:07:47 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/10/maven-deploy-plugin-3-0-0-m1/</guid>
+      <description>Remote repositories are one of fundamental concepts promoted by Maven. Its use is quite common. It is handled by &lt;a href=&#34;https://maven.apache.org/plugins/maven-deploy-plugin/&#34;&gt;maven-deploy-plugin&lt;/a&gt;, so its migration is something you will probably notice sooner or later. This short post will explain changes in new version of plugin which you need to take care of when moving from 2.8 or earlier releases.</description>
+    </item>
+    <item>
+      <title>Gitlab CI for github fork</title>
+      <link>https://dywicki.pl/2020/10/gitlab-ci-for-github-fork/</link>
+      <pubDate>Mon, 26 Oct 2020 21:09:27 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/10/gitlab-ci-for-github-fork/</guid>
+      <description>One of most annoying things these days is managing CI/CD with multiple repositories. For quite long time github didn&amp;rsquo;t offer private repositories while gitlab did. This lead to situation where people been asking gitlab for additional features. One of these is support for mirroring git repositories from github to gitlab just to run pipelines. I happened to have the same requirement.</description>
+    </item>
+    <item>
+      <title>Releasing forked Maven projects with ease</title>
+      <link>https://dywicki.pl/2020/10/releasing-forked-maven-projects-with-ease/</link>
+      <pubDate>Fri, 23 Oct 2020 23:54:11 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/10/releasing-forked-maven-projects-with-ease/</guid>
+      <description>In this pretty short introduction I am going to describe you a trick which I learned recently while doing new CI/CD configuration for one of open source projects I work with.</description>
+    </item>
+    <item>
+      <title>Maven mirros and gitlab ci</title>
+      <link>https://dywicki.pl/2020/07/multiple-maven-mirros-gitlab-ci/</link>
+      <pubDate>Thu, 30 Jul 2020 12:23:37 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/07/multiple-maven-mirros-gitlab-ci/</guid>
+      <description>Over past couple of months I&amp;rsquo;ve been playing with gitlab ci as it brings a bit of refreshing breeze after years of struggle with Jenkins. Don&amp;rsquo;t get me wrong, I value what Jenkins did for us over past decade. I just think that maintenance of it is a bit of nightmare. Yet, I&amp;rsquo;ve reached a place where I had to adjust some more stuff for gitlab in order to get my builds straight.</description>
+    </item>
+  </channel>
+</rss>

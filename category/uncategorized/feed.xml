@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Uncategorized on Middleware Warez</title>
+    <link>https://dywicki.pl/category/uncategorized/</link>
+    <description>Recent content in Uncategorized on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 29 Apr 2020 11:58:55 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/category/uncategorized/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mocking builders with Mockito answers</title>
+      <link>https://dywicki.pl/2020/04/mocking-builders-with-mockito-answers/</link>
+      <pubDate>Wed, 29 Apr 2020 11:58:55 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/04/mocking-builders-with-mockito-answers/</guid>
+      <description>I&amp;rsquo;ve been looking for some ways to use Mockito to with builder pattern using fluent calls. There are couple of articles online, however none of these addressed my case, a builder which receives calls and returns fully working object after a final &amp;lsquo;&amp;lsquo;build&amp;rsquo;&amp;rsquo; call without the need for further setup.</description>
+    </item>
+    <item>
+      <title>Improve eclipse juno look and feel</title>
+      <link>https://dywicki.pl/2013/02/improve-eclipse-juno-look-and-feel/</link>
+      <pubDate>Tue, 12 Feb 2013 14:42:42 +0000</pubDate>
+      <guid>https://dywicki.pl/2013/02/improve-eclipse-juno-look-and-feel/</guid>
+      <description>&lt;p&gt;I use Eclipse since years. Some of you may say that I’m a masochist. Well, people have different preferences. :-) I prefer Eclipse over other editors.&lt;/p&gt;
+&lt;h3 id=&#34;whats-the-pain&#34;&gt;What’s the pain?&lt;/h3&gt;
+&lt;p&gt;Eclipse had same look and feel since years. I used to have the same appearance under Windows/Linux/OSX. Everything was the same except fonts. I was very unhappy with default Juno look and feel which looks like few widgets deployed in browser. Even web-based IDEs looks better than Juno! There was &lt;a href=&#34;http://stackoverflow.com/a/11359663&#34;&gt;some posts&lt;/a&gt; about that and &lt;a href=&#34;http://www.vogella.com/blog/2012/07/11/eclipse-4-is-beautiful-create-your-own-eclipse-4-theme/&#34;&gt;some solutions&lt;/a&gt;. However nobody told how to get older look and feel in place.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>XML Schema Design Patterns</title>
+      <link>https://dywicki.pl/2011/06/xml-schema-design-patterns/</link>
+      <pubDate>Tue, 14 Jun 2011 14:22:54 +0000</pubDate>
+      <guid>https://dywicki.pl/2011/06/xml-schema-design-patterns/</guid>
+      <description>&lt;p&gt;XML Schema jest bodajże najlepszym sposobem walidacji dokumentów XML. Model zastosowany w przypadku tego meta-języka pozwala na tworzenie złożonych konstrukcji. W oparciu o niego można budować własne rozszerzenia czy też zagnieżdżać w sekcjach xsd:appinfo dodatkowe metadane. Dzisiaj jednak nie o tym, a o wzorcach projektowych. Sam się zdziwiłem gdy trafiłem na artykuł &lt;a href=&#34;http://developers.sun.com/jsenterprise/archive/nb_enterprise_pack/reference/techart/design_patterns.html&#34;&gt;Introducing Design Patterns in XML Schemas&lt;/a&gt;. W życiu się nie zastanawiałem czy to co piszę w XSD ma coś wspólnego z wzorcami czy nie. Sun wyprzedził w tym momencie chyba wszystkich. :-)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache Karaf commands rediscovered</title>
+      <link>https://dywicki.pl/2010/12/apache-karaf-commands-rediscovered/</link>
+      <pubDate>Wed, 15 Dec 2010 12:05:49 +0000</pubDate>
+      <guid>https://dywicki.pl/2010/12/apache-karaf-commands-rediscovered/</guid>
+      <description>I work with Apache Karaf almost every day. There is a lot of commands provided by default and most of them are a bit anonymous. In this post I would like introduce these commands.</description>
+    </item>
+    <item>
+      <title>OSGi-fikacja oraz nowe bundle w repozytorium ServiceMix</title>
+      <link>https://dywicki.pl/2010/03/osgi-new-bundles-servicemix-repository/</link>
+      <pubDate>Wed, 24 Mar 2010 16:26:52 +0000</pubDate>
+      <guid>https://dywicki.pl/2010/03/osgi-new-bundles-servicemix-repository/</guid>
+      <description>W tym wpisie zostanie omówiony proces OSGi-fikacji artefaktów, który przechodziłem gdy uruchamiałem prostą usługę na ServiceMix, która miała śledzić zewnętrzny RSS i pobierać z niego wpisy. Postanowiłem skorzystać z camel-rss. Przykłady które były do niego załączone są wystarczające by stworzyć odpowiedniego konsumenta&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Enterprise OSGi</title>
+      <link>https://dywicki.pl/2010/03/enterprise-osgi/</link>
+      <pubDate>Tue, 23 Mar 2010 12:26:18 +0000</pubDate>
+      <guid>https://dywicki.pl/2010/03/enterprise-osgi/</guid>
+      <description>&lt;p&gt;Do opublikowania tego postu zachęcił mnie &lt;a href=&#34;http://jlaskowski.blogspot.com/&#34;&gt;Jacek Laskowski&lt;/a&gt; swym postem pod tytułem &lt;a href=&#34;http://jlaskowski.blogspot.com/2010/03/w-piatek-4developers-ze-mna-z.html&#34;&gt;W piątek 4Developers ze mną z Enterprise OSGi i in&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Bardzo się cieszę że na 4Developers (na którym niestety mnie nie będzie) temat Enterprise OSGi będzie poruszony, ponieważ jak się zdaje jest to nieuchronny kierunek rozwoju Javy. Pod wpływem słów Jacka zacząłem się zastanawiać nad długofalowymi efektami jakie OSGi ma wnieść do developmentu.&lt;/p&gt;
+&lt;p&gt;Hałas który obecnie jest wokół OSGi w przybiera konkretne kształty w postaci projektów takich jak &lt;a href=&#34;http://incubator.apache.org/aries/&#34;&gt;Aries&lt;/a&gt; czy &lt;a href=&#34;http://www.eclipse.org/gemini/&#34;&gt;Gemini&lt;/a&gt;. Obydwa projekty skupiają się nad ostatnimi draftami OSGi R4 V4.2 i mają na celu udostępnienie technologii takich jak JNDI, JPA i JMX wewnątrz kontenerów OSGi. Zacznijmy jednak od początku..&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wprowadzenie do Apache ServiceMix 4 cz. 1</title>
+      <link>https://dywicki.pl/2010/03/introduction-to-apache-servicemix4-part-1/</link>
+      <pubDate>Mon, 22 Mar 2010 12:19:50 +0000</pubDate>
+      <guid>https://dywicki.pl/2010/03/introduction-to-apache-servicemix4-part-1/</guid>
+      <description>&lt;p&gt;Dnia 23 lutego w ramach Warszawa JUG miałem przyjemność wraz z &lt;a href=&#34;http://nurkiewicz.blogspot.com/&#34;&gt;Tomkiem Nurkiewiczem&lt;/a&gt; prezentować narzędzia integracyjne z otwartym kodem źródłowym. Tomek przedstawił Mule ESB, podczas gdy ja zająłem się Apache ServiceMix i Apache Camel. Ze względu na objętość przykładu ten wpis będzie jedynie wprowadzeniem do konsoli.&lt;/p&gt;
+&lt;p&gt;Niestety podczas prezentacji nie udało mi się uruchomić przykładu na &amp;ldquo;szynie&amp;rdquo; - ponieważ uniemożliwiły to zależności do bibliotek których nie miałem zapisanych lokalnie. Drugim mym przeciwnikiem był czas - nie było wielu chętnych by słuchać po 2h tłumaczeń dlaczego się nie udało :-) Na problem z zależnościami stworzyłem rozwiązanie i zgłosiłem je do Karaf-a ( &lt;a href=&#34;https://issues.apache.org/jira/browse/FELIX-2141&#34;&gt;FELIX 2141&lt;/a&gt;). W przyszłej wersji - 1.6 - wszyscy będą mogli skorzystać z polecenia &lt;code&gt;features:info -t&lt;/code&gt; które wyświetli całe drzewko zależności potrzebnych do zainstalowania nowych funkcjonalności.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Budowanie klienta usługi sieciowej w oparciu o Apache CXF</title>
+      <link>https://dywicki.pl/2008/09/budowanie-klienta-uslugi-sieciowej-w-oparciu-o-apache-cxf/</link>
+      <pubDate>Wed, 03 Sep 2008 09:28:27 +0000</pubDate>
+      <guid>https://dywicki.pl/2008/09/budowanie-klienta-uslugi-sieciowej-w-oparciu-o-apache-cxf/</guid>
+      <description>&lt;p&gt;W nawiązaniu do &lt;a href=&#34;http://blog.dywicki.pl/2008/07/23/budowanie-uslugi-sieciowej-w-oparciu-o-apache-cxf/&#34;&gt;poprzedniej noty o CXFie&lt;/a&gt;, którą napisałem jakiś czas temu, gonię aby uzupełnić brak konfiguracji klienta. Sam proces jest bardzo zbliżony do tworzenia klienta w oparciu o XFire. Nie jest wymagana duża ilość kodu Javy, a w zasadzie tylko dwa pliki XML (client.xml, &lt;em&gt;myservice.xml&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;Pierwszy z nich odpowiada za wczytanie wymaganych rozszerzeń CXFa oraz definicję bazowej konfiguracji fabryki z interceptorami. W interceptorach możemy skonfigurować logowanie, obsługę załączników czy standardów WS-Security etc. Wszystkie te ustawienia będą dziedziczone, a fabryki docelowych usług będą dodawać tylko adres, do odpytywania. Na koniec bean klienta będzie miał określony &lt;strong&gt;autowire&lt;/strong&gt; by nie przekazywać mu wszystkich własności.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Budowanie usługi sieciowej w oparciu o Apache CXF</title>
+      <link>https://dywicki.pl/2008/07/budowanie-uslugi-sieciowej-w-oparciu-o-apache-cxf/</link>
+      <pubDate>Wed, 23 Jul 2008 08:27:55 +0000</pubDate>
+      <guid>https://dywicki.pl/2008/07/budowanie-uslugi-sieciowej-w-oparciu-o-apache-cxf/</guid>
+      <description>&lt;p&gt;Od jakiegoś czasu w pracy do tworzenia usług sieciowych korzystam z &lt;a href=&#34;http://cxf.apache.org&#34;&gt;Apache CXF&lt;/a&gt;. Jako że biblioteka jest stosunkowo nowa i nie najlepiej udokumentowana postanowiłem przedstawić na blogu jak wygląda proces tworzenia.&lt;/p&gt;
+&lt;p&gt;CXF jest połączeniem kilku bibliotek - &lt;a href=&#34;http://cwiki.apache.org/YOKO/&#34;&gt;YOKO&lt;/a&gt;, &lt;a href=&#34;http://celtix.objectweb.org/&#34;&gt;Celtixa&lt;/a&gt; oraz &lt;a href=&#34;http://xfire.codehaus.org/&#34;&gt;XFire&lt;/a&gt;. Każda z nich wcześniej realizowała pewien fragment obecnej funkcjonalności CXF - YOKO obsługuje Corbę a XFire usługi sieciowe. Obecne CXF jest gotowy do używania &amp;ldquo;produkcyjnego&amp;rdquo;, ponieważ niedawno wyszedł z fazy inkubacji. :)&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Apache ServiceMix, Open Source ESB</title>
+      <link>https://dywicki.pl/2008/06/apache-servicemix-open-source-es/</link>
+      <pubDate>Sun, 22 Jun 2008 20:23:35 +0000</pubDate>
+      <guid>https://dywicki.pl/2008/06/apache-servicemix-open-source-es/</guid>
+      <description>Jakiś czas temu, jeszcze podczas pracy w poprzedniej firmie przypadło mi zadanie podpięcia się pod magistralę usług opartą o &lt;a href=&#34;http://servicemix.apache.org&#34;&gt;Apache Service Mix&lt;/a&gt; (SMX). Był to wówczas dla mnie temat zupełnie nowy, ba nawet nie wiedziałem z czym to się je. :) Koniec końców jednak podpięcie pod ESB (Enterprises Service Bus) nie było w ogóle trudne. Po jakimś czasie i drobnych przetasowaniach na płaszczyźnie zawodowej zająłem się SMX-em nie jako klient magistrali a osoba implementująca usługi na szynie a ten wpis jest drobną przeróbką prezentacji, którą przygotowałem w pracy.</description>
+    </item>
+  </channel>
+</rss>

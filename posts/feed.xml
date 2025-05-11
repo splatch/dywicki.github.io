@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Middleware Warez</title>
+    <link>https://dywicki.pl/posts/</link>
+    <description>Recent content in Posts on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 09 May 2024 09:33:41 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/posts/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Persistent serial identifiers with udev</title>
+      <link>https://dywicki.pl/2024/05/persistent-serial-identifiers-with-udev/</link>
+      <pubDate>Thu, 09 May 2024 09:33:41 +0000</pubDate>
+      <guid>https://dywicki.pl/2024/05/persistent-serial-identifiers-with-udev/</guid>
+      <description>It is not a secret that Linux can juggle USB serial ports between restarts. This is something which doesn&amp;rsquo;t happen on linux, but if you ever looked at internet forums on how to fix issue, you for sure found advice to use custom udev rules.</description>
+    </item>
+    <item>
+      <title>Felix Config Admin with Fileinstall and array values</title>
+      <link>https://dywicki.pl/2024/02/felix-config-admin-with-fileinstall-and-array-values/</link>
+      <pubDate>Tue, 20 Feb 2024 00:13:27 +0000</pubDate>
+      <guid>https://dywicki.pl/2024/02/felix-config-admin-with-fileinstall-and-array-values/</guid>
+      <description>The Felix Fileinstall and Config Admin are two essential components of Apache Karaf runtime. I wrote about issues with array/list handling already twice. In 2015 and 2022. While earlier post was about syntax, later was about troubles with parsing of stored entries. Turns out, I&amp;rsquo;ve found a reason.</description>
+    </item>
+    <item>
+      <title>TwinCAT/BSD with insecure ADS connection</title>
+      <link>https://dywicki.pl/2023/10/twincat-bsd-with-insecure-ads-connection/</link>
+      <pubDate>Wed, 04 Oct 2023 11:43:56 +0000</pubDate>
+      <guid>https://dywicki.pl/2023/10/twincat-bsd-with-insecure-ads-connection/</guid>
+      <description>The TwinCAT is automation software - both runtime and engineering environment from Beckhoff Automation. Since its early days it embedded &amp;ldquo;win&amp;rdquo;, which was a shortcut from windows. Today I&amp;rsquo;ve finally got a TwinCAT/BSD working within VM and had to enable old fashion ADS connection to integration developed within &lt;a href=&#34;https://plc4x.apache.org&#34;&gt;Apache PLC4X&lt;/a&gt; library and embedded in &lt;a href=&#34;https://connectorio.com/industrial-and-building-automation-monitoring-agent/&#34;&gt;ConnectorIO Agent&lt;/a&gt; software.</description>
+    </item>
+    <item>
+      <title>Gohugo and nginx config generator</title>
+      <link>https://dywicki.pl/2023/08/gohugo-and-nginx-config-generator/</link>
+      <pubDate>Wed, 30 Aug 2023 23:04:29 +0000</pubDate>
+      <guid>https://dywicki.pl/2023/08/gohugo-and-nginx-config-generator/</guid>
+      <description>The gohugo is being called a content management system, because&amp;hellip; it allows to manage a content. As someone who used wordpress for far too long I found that gohugo was missed my expectations a bit. One of areas where I found it shortcomings are redirects and aliases.</description>
+    </item>
+    <item>
+      <title>Kubernets TLS secret with ca.crt field for mtls</title>
+      <link>https://dywicki.pl/2023/05/ingress-nginx-and-tls-secret-with-ca-crt-field/</link>
+      <pubDate>Fri, 12 May 2023 08:39:00 +0000</pubDate>
+      <guid>https://dywicki.pl/2023/05/ingress-nginx-and-tls-secret-with-ca-crt-field/</guid>
+      <description>By default kubernetes tls secret must consist two fields a &lt;code&gt;tls.key&lt;/code&gt; and &lt;code&gt;tls.crt&lt;/code&gt;. It works perfectly fine in most of the cases, but not when we need mutual tls which is handled by ingress-nginx. This kind of ingress requires a secret with a &amp;ldquo;ca.crt&amp;rdquo; field to validate client certs. Obviously it tricks a kubectl which can&amp;rsquo;t append more than standard.</description>
+    </item>
+    <item>
+      <title>One shot retrieval of TLS certificates from Kubernetes</title>
+      <link>https://dywicki.pl/2023/05/one-shot-retrieval-of-tls-certificates-from-kubernetes/</link>
+      <pubDate>Wed, 03 May 2023 07:41:00 +0000</pubDate>
+      <guid>https://dywicki.pl/2023/05/one-shot-retrieval-of-tls-certificates-from-kubernetes/</guid>
+      <description>I believe that I am not only one who needed to get a secret value out of kubernetes. Usual advice focus on use of &lt;code&gt;kubectl&lt;/code&gt; with json output and/or jsonpath. Problem is - the &lt;code&gt;kubectl&lt;/code&gt; jsonpath is limited thus result needs to be scanned further by jq. It works, but jq is not part of everyone&amp;rsquo;s working environment.</description>
+    </item>
+    <item>
+      <title>Apache Felix Configuration Admin and collections</title>
+      <link>https://dywicki.pl/2022/02/apache-felix-configuration-admin-and-collections/</link>
+      <pubDate>Wed, 16 Feb 2022 12:51:04 +0000</pubDate>
+      <guid>https://dywicki.pl/2022/02/apache-felix-configuration-admin-and-collections/</guid>
+      <description>A long time ago I wrote an post about &lt;a href=&#34;https://dywicki.pl/2015/02/apache-felix-configuration-admin-with-array-values/&#34;&gt;Configuration Admin and Arrays&lt;/a&gt;. Recently I attempted to use this feature with openHAB and I found that it doesn&amp;rsquo;t work with its configuration framework.</description>
+    </item>
+    <item>
+      <title>Nginx: verify OIDC token before rewrite</title>
+      <link>https://dywicki.pl/2020/11/nginx-verify-oidc-token-before-rewrite/</link>
+      <pubDate>Sun, 08 Nov 2020 22:26:42 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/11/nginx-verify-oidc-token-before-rewrite/</guid>
+      <description>A while ago I managed to get Nginx and OpenID Connect working together. Obviously, there is a commercial plugin provided by Nginx authors, but for simpler cases we can use a a simpler way with &lt;code&gt;auth_request&lt;/code&gt; which works nicely with OIDC token introspection served by for example Keycloak.</description>
+    </item>
+    <item>
+      <title>Maven deploy plugin 3.0.0-M1</title>
+      <link>https://dywicki.pl/2020/10/maven-deploy-plugin-3-0-0-m1/</link>
+      <pubDate>Tue, 27 Oct 2020 22:07:47 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/10/maven-deploy-plugin-3-0-0-m1/</guid>
+      <description>Remote repositories are one of fundamental concepts promoted by Maven. Its use is quite common. It is handled by &lt;a href=&#34;https://maven.apache.org/plugins/maven-deploy-plugin/&#34;&gt;maven-deploy-plugin&lt;/a&gt;, so its migration is something you will probably notice sooner or later. This short post will explain changes in new version of plugin which you need to take care of when moving from 2.8 or earlier releases.</description>
+    </item>
+    <item>
+      <title>Gitlab CI for github fork</title>
+      <link>https://dywicki.pl/2020/10/gitlab-ci-for-github-fork/</link>
+      <pubDate>Mon, 26 Oct 2020 21:09:27 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/10/gitlab-ci-for-github-fork/</guid>
+      <description>One of most annoying things these days is managing CI/CD with multiple repositories. For quite long time github didn&amp;rsquo;t offer private repositories while gitlab did. This lead to situation where people been asking gitlab for additional features. One of these is support for mirroring git repositories from github to gitlab just to run pipelines. I happened to have the same requirement.</description>
+    </item>
+    <item>
+      <title>Releasing forked Maven projects with ease</title>
+      <link>https://dywicki.pl/2020/10/releasing-forked-maven-projects-with-ease/</link>
+      <pubDate>Fri, 23 Oct 2020 23:54:11 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/10/releasing-forked-maven-projects-with-ease/</guid>
+      <description>In this pretty short introduction I am going to describe you a trick which I learned recently while doing new CI/CD configuration for one of open source projects I work with.</description>
+    </item>
+    <item>
+      <title>Using Wireshark with CAN and CANopen</title>
+      <link>https://dywicki.pl/2020/09/using-wireshark-with-can-and-canopen/</link>
+      <pubDate>Fri, 04 Sep 2020 23:19:44 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/09/using-wireshark-with-can-and-canopen/</guid>
+      <description>&lt;a href=&#34;http://wireshark.org/&#34;&gt;Wireshark&lt;/a&gt; is outstanding piece of software. I had few chances to make use of it, early in my IT days, then in one of bigger projects I worked on, and finally now - when I began working on industrial integration protocols.{{ double-space-with-newline }}This blog post will describe a journey I had with Wireshark over last couple of weeks and tell you why clicking couple of times everywhere you &lt;em&gt;CAN&lt;/em&gt; is sometimes better.</description>
+    </item>
+    <item>
+      <title>Maven mirros and gitlab ci</title>
+      <link>https://dywicki.pl/2020/07/multiple-maven-mirros-gitlab-ci/</link>
+      <pubDate>Thu, 30 Jul 2020 12:23:37 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/07/multiple-maven-mirros-gitlab-ci/</guid>
+      <description>Over past couple of months I&amp;rsquo;ve been playing with gitlab ci as it brings a bit of refreshing breeze after years of struggle with Jenkins. Don&amp;rsquo;t get me wrong, I value what Jenkins did for us over past decade. I just think that maintenance of it is a bit of nightmare. Yet, I&amp;rsquo;ve reached a place where I had to adjust some more stuff for gitlab in order to get my builds straight.</description>
+    </item>
+    <item>
+      <title>Mocking builders with Mockito answers</title>
+      <link>https://dywicki.pl/2020/04/mocking-builders-with-mockito-answers/</link>
+      <pubDate>Wed, 29 Apr 2020 11:58:55 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/04/mocking-builders-with-mockito-answers/</guid>
+      <description>I&amp;rsquo;ve been looking for some ways to use Mockito to with builder pattern using fluent calls. There are couple of articles online, however none of these addressed my case, a builder which receives calls and returns fully working object after a final &amp;lsquo;&amp;lsquo;build&amp;rsquo;&amp;rsquo; call without the need for further setup.</description>
+    </item>
+    <item>
+      <title>Migration from OSX to Arch Linux</title>
+      <link>https://dywicki.pl/2018/08/migration-from-osx-to-arch-linux/</link>
+      <pubDate>Tue, 28 Aug 2018 20:22:49 +0000</pubDate>
+      <guid>https://dywicki.pl/2018/08/migration-from-osx-to-arch-linux/</guid>
+      <description>&lt;p&gt;It is already 12 months since I started using my (first since very long time) desktop PC. In my previous blog post I&amp;rsquo;ve described reasons why I decided to resign from Apple hardware. In this one I will tell you how I managed to drop OSX and its ecosystem with minor pains.&lt;/p&gt;
+&lt;p&gt;I feel that I owe you also some insights - which applications I had to swap and which I was lucky to keep. Because I work with Java on daily basis I do not have any major troubles with portability of my software, however just few out many programs is actually written in Java.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why I abandoned Apple and OSX for Linux</title>
+      <link>https://dywicki.pl/2018/01/why-i-abandoned-apple-and-osx-for-linux/</link>
+      <pubDate>Thu, 25 Jan 2018 20:53:50 +0000</pubDate>
+      <guid>https://dywicki.pl/2018/01/why-i-abandoned-apple-and-osx-for-linux/</guid>
+      <description>I must start from small confession. I am not an computer kido. My first computer was AMD K6 with 266 Hz clock I got for Christmas back in 1999. I&amp;rsquo;ve seen in my life Amiga, but I wasn&amp;rsquo;t part of long standing battle between platforms. I&amp;rsquo;ve seen Norton Commander on my friend PC who got his Pentium in 95, but I never had to run such tool on my own. Point of bringing whole history of myself coming to computers is to show you that I am relatively fresh to it.</description>
+    </item>
+    <item>
+      <title>Testing a staged release of project dependency</title>
+      <link>https://dywicki.pl/2017/12/testing-a-staged-release/</link>
+      <pubDate>Tue, 26 Dec 2017 23:56:41 +0000</pubDate>
+      <guid>https://dywicki.pl/2017/12/testing-a-staged-release/</guid>
+      <description>&lt;p&gt;One of most important things, if not the most important in software, is release process. There are whole books written about &amp;ldquo;shipping software&amp;rdquo; and software release is one of key parts which needs to happen in order to deliver our programs to end users. In this very short post I will give you a short tip about how to do a test drive of a release which is not published yet. One of main principles of maven central is &amp;ldquo;what goes there, stays there&amp;rdquo;, meaning that anything which becomes public will stay public. For that reason we, as software developers, want to deploy things which are free of any major issues at release time.
+&lt;a href=&#34;https://maven.apache.org/guides/development/guide-testing-releases.html&#34;&gt;Staged release&lt;/a&gt; is one of things which are supported by maven-release-plugin. Overall idea behind this is to let people have a test drive before deploying artifacts to public repositories from which they can not be removed. Of course this might be seen as completely unnecessary step if you release a small library, but could be extremely useful for bigger projects, avoiding something I would call a quick fix hiccup.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache Felix Configuration Admin with array values</title>
+      <link>https://dywicki.pl/2015/02/apache-felix-configuration-admin-with-array-values/</link>
+      <pubDate>Tue, 17 Feb 2015 10:47:48 +0000</pubDate>
+      <guid>https://dywicki.pl/2015/02/apache-felix-configuration-admin-with-array-values/</guid>
+      <description>&lt;p&gt;Apache Felix Configuration Admin (CM) is widely used component which is responsible for provisioning of one of most common OSGi services. Main responsibility of it is to bring configurations stored in property files to services.&lt;/p&gt;
+&lt;p&gt;While digging into Felix CM code I have found that it is able to create scalar values of certain type ie. Long, but also more complex structures such Array or Vector. The biggest issue was that I couldn’t find any way to force it to create array from string representation. Thanks to google ( &lt;a href=&#34;https://issues.apache.org/jira/browse/FELIX-4431&#34;&gt;FELIX-4431&lt;/a&gt; found on 4th page of results) and debugger goodnes I finally managed to do it. Here is recipe how to proceed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Improve eclipse juno look and feel</title>
+      <link>https://dywicki.pl/2013/02/improve-eclipse-juno-look-and-feel/</link>
+      <pubDate>Tue, 12 Feb 2013 14:42:42 +0000</pubDate>
+      <guid>https://dywicki.pl/2013/02/improve-eclipse-juno-look-and-feel/</guid>
+      <description>&lt;p&gt;I use Eclipse since years. Some of you may say that I’m a masochist. Well, people have different preferences. :-) I prefer Eclipse over other editors.&lt;/p&gt;
+&lt;h3 id=&#34;whats-the-pain&#34;&gt;What’s the pain?&lt;/h3&gt;
+&lt;p&gt;Eclipse had same look and feel since years. I used to have the same appearance under Windows/Linux/OSX. Everything was the same except fonts. I was very unhappy with default Juno look and feel which looks like few widgets deployed in browser. Even web-based IDEs looks better than Juno! There was &lt;a href=&#34;http://stackoverflow.com/a/11359663&#34;&gt;some posts&lt;/a&gt; about that and &lt;a href=&#34;http://www.vogella.com/blog/2012/07/11/eclipse-4-is-beautiful-create-your-own-eclipse-4-theme/&#34;&gt;some solutions&lt;/a&gt;. However nobody told how to get older look and feel in place.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache Karaf - pierwszy projekt z OSGi</title>
+      <link>https://dywicki.pl/2013/02/apache-karaf-pierwszy-projekt-z-osgi/</link>
+      <pubDate>Mon, 11 Feb 2013 17:36:57 +0000</pubDate>
+      <guid>https://dywicki.pl/2013/02/apache-karaf-pierwszy-projekt-z-osgi/</guid>
+      <description>&lt;p&gt;Piątego lutego miałem niekłamaną przyjemność podziwiać &lt;a href=&#34;http://jlaskowski.blogspot.com&#34;&gt;Jacka Laskowskiego&lt;/a&gt; prezentującego temat &lt;a href=&#34;http://warszawa.jug.pl/spotkania/20130205-osgi&#34;&gt;Praktyczne wprowadzenie do OSGi i Enterprise OSGi&lt;/a&gt;. Link do filmiku z prezentacją Jacka znajdziecie na &lt;a href=&#34;http://jlaskowski.blogspot.com/2013/02/nagranie-z-mojej-prezentacji-o.html&#34;&gt;Jego blogu&lt;/a&gt;. Tymczasem, poniżej wideo z Karafem. :-)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Advanced Apache Camel logging and best practices</title>
+      <link>https://dywicki.pl/2012/02/advanced-apache-camel-logging-and-best-practices/</link>
+      <pubDate>Tue, 28 Feb 2012 00:09:14 +0000</pubDate>
+      <guid>https://dywicki.pl/2012/02/advanced-apache-camel-logging-and-best-practices/</guid>
+      <description>Apache Camel supports a &lt;a href=&#34;http://camel.apache.org/mdc-logging.html&#34;&gt;mapped diagnostic context&lt;/a&gt; which can be used to improve log entries, but also there is a &lt;a href=&#34;http://camel.apache.org/log&#34;&gt;log component&lt;/a&gt; which makes it easier to create log entries. Together they can be used to create foundations of activity monitoring without need to deploy another tool or database.</description>
+    </item>
+    <item>
+      <title>Apache Aries under Apache Tomcat</title>
+      <link>https://dywicki.pl/2012/01/apache-aries-under-apache-tomcat/</link>
+      <pubDate>Tue, 24 Jan 2012 20:51:40 +0000</pubDate>
+      <guid>https://dywicki.pl/2012/01/apache-aries-under-apache-tomcat/</guid>
+      <description>Few months ago I&amp;rsquo;ve read an article written by my friend &lt;a href=&#34;http://jlaskowski.blogspot.com&#34;&gt;Jacek Laskowski&lt;/a&gt; - &lt;a href=&#34;http://www.jaceklaskowski.pl/wiki/Enterprise_OSGi_runtime_setup_with_Apache_Aries_Blueprint&#34; title=&#34;Enterprise OSGi runtime setup with Apache Aries Blueprint&#34;&gt;Enterprise OSGi runtime setup with Apache Aries Blueprint&lt;/a&gt;. In his article Jacek describes which bundles should be installed to get the blueprint working. As IBM employee Jacek can always promote IBM WebSphere in version X or Y which started (or will start) supporting blueprint as dependency injection mechanism. That&amp;rsquo;s not fine for these who do not run IBM producs and want something light. As you know, Aries and OSGi Blueprint is an alternative for old-fashion Spring approach.</description>
+    </item>
+    <item>
+      <title>Running aspects under OSGi 4.2 with Karaf</title>
+      <link>https://dywicki.pl/2011/11/running-aspects-under-osgi-4-2-with-karaf/</link>
+      <pubDate>Thu, 24 Nov 2011 19:23:46 +0000</pubDate>
+      <guid>https://dywicki.pl/2011/11/running-aspects-under-osgi-4-2-with-karaf/</guid>
+      <description>One of bigest benefits of Java is byte code manipulation. You can change everything you want in your application without touching source code. That&amp;rsquo;s usefull for many cases, starting from legacy code, where we can&amp;rsquo;t simply modify and recompile library up to modern applications where aspects can be used to handle runtime exceptions. The most popular project is &lt;a href=&#34;http://eclipse.org/aspectj/&#34;&gt;AspectJ&lt;/a&gt; which is part of &lt;a href=&#34;http://eclipse.org&#34;&gt;Eclipse&lt;/a&gt; ecosystem, in this post I going to show you how to use AspectJ with Karaf.</description>
+    </item>
+    <item>
+      <title>Preserving message order in ActiveMQ</title>
+      <link>https://dywicki.pl/2011/11/preserving-message-order/</link>
+      <pubDate>Fri, 18 Nov 2011 10:36:52 +0000</pubDate>
+      <guid>https://dywicki.pl/2011/11/preserving-message-order/</guid>
+      <description>&lt;p&gt;Few hours ago I&amp;rsquo;ve found an usefull &lt;a href=&#34;http://marcelojabali.blogspot.com/2011/11/preserving-message-order-with-apache.html&#34;&gt;post&lt;/a&gt; about preserving message order with &lt;a href=&#34;http://activemq.apache.org&#34;&gt;ActiveMQ&lt;/a&gt; written by &lt;a href=&#34;http://marcelojabali.blogspot.com/&#34;&gt;Marcelo Jabali&lt;/a&gt; from &lt;a href=&#34;http://www.fusesource.com/&#34;&gt;FUSE Source&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In his example Marcelo used broker feature called &lt;a href=&#34;http://activemq.apache.org/exclusive-consumer.html&#34;&gt;Exclusive Consumers&lt;/a&gt;. It lets send messages only to one consumer and if it fails then second consumer gets all messages. I think it is not the best idea if we have many messages to process. Why we wouldn&amp;rsquo;t use few consumers with preserved message order? Well, I was sure it is not possible, but during last training I&amp;rsquo;ve found solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction to Karaf WebConsole</title>
+      <link>https://dywicki.pl/2011/11/introduction-to-karaf-webconsole/</link>
+      <pubDate>Wed, 16 Nov 2011 23:02:22 +0000</pubDate>
+      <guid>https://dywicki.pl/2011/11/introduction-to-karaf-webconsole/</guid>
+      <description>&lt;p&gt;Management of OSGi - let&amp;rsquo;s face it - is not very hard. The OSGi environment is clearly defined and that gives programmers many mechanisms to create administrative tools. The problem begins when we would like to use only one tool to manage few projects or artifacts of different types. I know this from personal experience because when I run Camel, ActiveMQ and CXF every from them provides own administration console. Every of them requires own security configuration, looks differently, have own dependencies and so on.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building sample middleware - producer</title>
+      <link>https://dywicki.pl/2011/06/sh-html/</link>
+      <pubDate>Sat, 18 Jun 2011 12:40:30 +0000</pubDate>
+      <guid>https://dywicki.pl/2011/06/sh-html/</guid>
+      <description>&lt;p&gt;Last two days I&amp;rsquo;ve spent hacking Swing code. I decided to run standalone producer application to show real interaction with broker. You may treat this Swing app like entry point for people to our middleware system. Users simply do &amp;ldquo;transfers&amp;rdquo; from this application and don&amp;rsquo;t know anything about technical details. I added text area to main window to show structure of message sent to broker.&lt;/p&gt;
+&lt;h2 id=&#34;producing-messages-with-jms&#34;&gt;Producing messages with JMS&lt;/h2&gt;
+&lt;p&gt;Most of communication systems, whanever you will go have two different kinds of values, first - main and mainly used is body, second is typical metadata named headers or properties or parameters. JMS is not different, you can create different kinds of messages and set headers to them (in JMS world they&amp;rsquo;re named property, but I preffer header).
+Let check messaging code we have:
+[java highlight=&amp;ldquo;20,22,24,28-31&amp;rdquo;]
+// import declarations &amp;hellip;
+public class JmsMessageSender implements MessageSender, InitializingBean {&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>XML Schema Design Patterns</title>
+      <link>https://dywicki.pl/2011/06/xml-schema-design-patterns/</link>
+      <pubDate>Tue, 14 Jun 2011 14:22:54 +0000</pubDate>
+      <guid>https://dywicki.pl/2011/06/xml-schema-design-patterns/</guid>
+      <description>&lt;p&gt;XML Schema jest bodajże najlepszym sposobem walidacji dokumentów XML. Model zastosowany w przypadku tego meta-języka pozwala na tworzenie złożonych konstrukcji. W oparciu o niego można budować własne rozszerzenia czy też zagnieżdżać w sekcjach xsd:appinfo dodatkowe metadane. Dzisiaj jednak nie o tym, a o wzorcach projektowych. Sam się zdziwiłem gdy trafiłem na artykuł &lt;a href=&#34;http://developers.sun.com/jsenterprise/archive/nb_enterprise_pack/reference/techart/design_patterns.html&#34;&gt;Introducing Design Patterns in XML Schemas&lt;/a&gt;. W życiu się nie zastanawiałem czy to co piszę w XSD ma coś wspólnego z wzorcami czy nie. Sun wyprzedził w tym momencie chyba wszystkich. :-)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building sample middleware – data structures</title>
+      <link>https://dywicki.pl/2011/06/building-sample-middleware-data-structures/</link>
+      <pubDate>Mon, 13 Jun 2011 12:54:18 +0000</pubDate>
+      <guid>https://dywicki.pl/2011/06/building-sample-middleware-data-structures/</guid>
+      <description>&lt;h2 id=&#34;data-with-middleware&#34;&gt;Data with middleware&lt;/h2&gt;
+&lt;p&gt;The data structures are very important in middleware world. Because we often connect multiple systems we need to define an &amp;ldquo;domain model&amp;rdquo; for integration. The domain model means that objects we share between all systems are &lt;strong&gt;well known&lt;/strong&gt;, &lt;strong&gt;well defined&lt;/strong&gt;, &lt;strong&gt;well understand&lt;/strong&gt; in multiple teams often provided by multiple vendors. Let see what does it means in practice.&lt;/p&gt;
+&lt;h4 id=&#34;well-known&#34;&gt;Well known&lt;/h4&gt;
+&lt;p&gt;If you talk with business guys you have to use same terms with programmers. You might be mediator but not the translator. As integration team member mediate correct shape of solution but don&amp;rsquo;t became a translator between business divisions and developers (unless you are business analitic). All people should use same terms to minimalise problems with number of definitions. That&amp;rsquo;s first step of multiple projects, not only integration. If you look for deeper knowledge of domain definitions check a &amp;quot; &lt;a href=&#34;http://domaindrivendesign.org/books/evans_2003&#34;&gt;Domain Driven Design&lt;/a&gt;&amp;quot; book written by &lt;a href=&#34;http://domaindrivendesign.org/about#eric&#34;&gt;Eric Evans&lt;/a&gt; and published in 2003. Ok, maybe business is not always part of integration project, but you communicate systems used by people, isn&amp;rsquo;t?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building sample middleware - broker</title>
+      <link>https://dywicki.pl/2011/06/building-sample-middleware-broker/</link>
+      <pubDate>Fri, 10 Jun 2011 16:45:30 +0000</pubDate>
+      <guid>https://dywicki.pl/2011/06/building-sample-middleware-broker/</guid>
+      <description>&lt;p&gt;At end of the May I had great time in United Kingdom providing consulting. After this I started thinking about sharing an idea of middleware application based on ActiveMQ and Camel features. I&amp;rsquo;ve spent few days to create sufficient example.&lt;/p&gt;
+&lt;h1 id=&#34;what-middleware-is&#34;&gt;What middleware is?&lt;/h1&gt;
+&lt;p&gt;Middleware is a general term, about some software which is some kind of proxy between other systems. What for? - you could ask. Generally because communication from point to point is not the best to build bigger applications, and some components in middle of communication allows us to inject new logic without changing source systems. Could you imagine situation where you have a number of system producing messages and an number of consumers of these messages written in different languages? That&amp;rsquo;s typical case where middleware is going to be usefull.
+There is number of middleware tools from various categories, in this post we&amp;rsquo;ll learn how to use ActiveMQ to build message oriented middleware. What does the MOM means? Generally that we have asynchronous communication without direct method invocations. Producer don&amp;rsquo;t know anything about consumer and vice versa. If you are interested in MOM - pick up &amp;quot; &lt;a href=&#34;http://manning.com/snyder/&#34;&gt;ActiveMQ in Action&lt;/a&gt;&amp;quot; book (written by commiters of ActiveMQ) from &lt;a href=&#34;http://manning.com&#34;&gt;Manning Publications Co.&lt;/a&gt; where this term is described in greater detail.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Budowanie przykładowego middleware - broker</title>
+      <link>https://dywicki.pl/2011/06/budowanie-przykladowego-middleware-broker/</link>
+      <pubDate>Fri, 10 Jun 2011 16:45:13 +0000</pubDate>
+      <guid>https://dywicki.pl/2011/06/budowanie-przykladowego-middleware-broker/</guid>
+      <description>&lt;p&gt;Pod koniec maja świetnie spędziłem czas w Wielkiej Brytanii dostarczając consulting. Tuż po nim zacząłem myśleć o podzieleniu się ideą aplikacji middleware zbudowanej na ActiveMQ z funkcjami Camela. Spędziłem kilka dni tworząc wystarczający przykład.&lt;/p&gt;
+&lt;h1 id=&#34;czym-jest-middleware&#34;&gt;Czym jest middleware?&lt;/h1&gt;
+&lt;p&gt;Middleware jest ogólnym terminem traktującym o oprogramowaniu które jest pewnego rodzaju pośrednikiem między systemami. Po cóż? - możesz zapytać. Generalnie ponieważ komunikacja pomiędzy punktami nie jest najlepsza do budowania większych aplikacji, co więcej niektóre komponenty pomiędzy komunikującymi pozwalają wstrzykiwać nową logikę bez zmieniania systemów komunikujących się. Czy możesz wyobrazić sobie sytuację gdzie wiele systemów tworzy komunikaty i wielu konsumentów tych komunikatów stworzonych w różnych językach? To jest typowy scenariusz gdzie middleware będzie użyteczne.
+Istnieje wiele narzędzi middleware i kilka ich kategorii, w tym wpisie dowiemy się jak używać ActiveMQ do budowania message oriented middleware. Co oznacza termin MOM? To, że mamy asynchroniczną komunikację bez bezpośrednich wywołań metod. Producent nic nie wie o konsumencie i na odwrót. Jeśli jesteś zainteresowany MOM-ami - zajrzyj do książki &lt;a href=&#34;http://manning.com/snyder/&#34;&gt;&amp;ldquo;ActiveMQ in Action&amp;rdquo;&lt;/a&gt; (napisanej przez commiterów ActiveMQ) z &lt;a href=&#34;http://manning.com&#34;&gt;wydawnictwa Manning&lt;/a&gt;, w której termin ten jest opisany szerzej.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Apache Karaf commands rediscovered</title>
+      <link>https://dywicki.pl/2010/12/apache-karaf-commands-rediscovered/</link>
+      <pubDate>Wed, 15 Dec 2010 12:05:49 +0000</pubDate>
+      <guid>https://dywicki.pl/2010/12/apache-karaf-commands-rediscovered/</guid>
+      <description>I work with Apache Karaf almost every day. There is a lot of commands provided by default and most of them are a bit anonymous. In this post I would like introduce these commands.</description>
+    </item>
+    <item>
+      <title>OSGi-fikacja oraz nowe bundle w repozytorium ServiceMix</title>
+      <link>https://dywicki.pl/2010/03/osgi-new-bundles-servicemix-repository/</link>
+      <pubDate>Wed, 24 Mar 2010 16:26:52 +0000</pubDate>
+      <guid>https://dywicki.pl/2010/03/osgi-new-bundles-servicemix-repository/</guid>
+      <description>W tym wpisie zostanie omówiony proces OSGi-fikacji artefaktów, który przechodziłem gdy uruchamiałem prostą usługę na ServiceMix, która miała śledzić zewnętrzny RSS i pobierać z niego wpisy. Postanowiłem skorzystać z camel-rss. Przykłady które były do niego załączone są wystarczające by stworzyć odpowiedniego konsumenta&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Enterprise OSGi</title>
+      <link>https://dywicki.pl/2010/03/enterprise-osgi/</link>
+      <pubDate>Tue, 23 Mar 2010 12:26:18 +0000</pubDate>
+      <guid>https://dywicki.pl/2010/03/enterprise-osgi/</guid>
+      <description>&lt;p&gt;Do opublikowania tego postu zachęcił mnie &lt;a href=&#34;http://jlaskowski.blogspot.com/&#34;&gt;Jacek Laskowski&lt;/a&gt; swym postem pod tytułem &lt;a href=&#34;http://jlaskowski.blogspot.com/2010/03/w-piatek-4developers-ze-mna-z.html&#34;&gt;W piątek 4Developers ze mną z Enterprise OSGi i in&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Bardzo się cieszę że na 4Developers (na którym niestety mnie nie będzie) temat Enterprise OSGi będzie poruszony, ponieważ jak się zdaje jest to nieuchronny kierunek rozwoju Javy. Pod wpływem słów Jacka zacząłem się zastanawiać nad długofalowymi efektami jakie OSGi ma wnieść do developmentu.&lt;/p&gt;
+&lt;p&gt;Hałas który obecnie jest wokół OSGi w przybiera konkretne kształty w postaci projektów takich jak &lt;a href=&#34;http://incubator.apache.org/aries/&#34;&gt;Aries&lt;/a&gt; czy &lt;a href=&#34;http://www.eclipse.org/gemini/&#34;&gt;Gemini&lt;/a&gt;. Obydwa projekty skupiają się nad ostatnimi draftami OSGi R4 V4.2 i mają na celu udostępnienie technologii takich jak JNDI, JPA i JMX wewnątrz kontenerów OSGi. Zacznijmy jednak od początku..&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wprowadzenie do Apache ServiceMix 4 cz. 1</title>
+      <link>https://dywicki.pl/2010/03/introduction-to-apache-servicemix4-part-1/</link>
+      <pubDate>Mon, 22 Mar 2010 12:19:50 +0000</pubDate>
+      <guid>https://dywicki.pl/2010/03/introduction-to-apache-servicemix4-part-1/</guid>
+      <description>&lt;p&gt;Dnia 23 lutego w ramach Warszawa JUG miałem przyjemność wraz z &lt;a href=&#34;http://nurkiewicz.blogspot.com/&#34;&gt;Tomkiem Nurkiewiczem&lt;/a&gt; prezentować narzędzia integracyjne z otwartym kodem źródłowym. Tomek przedstawił Mule ESB, podczas gdy ja zająłem się Apache ServiceMix i Apache Camel. Ze względu na objętość przykładu ten wpis będzie jedynie wprowadzeniem do konsoli.&lt;/p&gt;
+&lt;p&gt;Niestety podczas prezentacji nie udało mi się uruchomić przykładu na &amp;ldquo;szynie&amp;rdquo; - ponieważ uniemożliwiły to zależności do bibliotek których nie miałem zapisanych lokalnie. Drugim mym przeciwnikiem był czas - nie było wielu chętnych by słuchać po 2h tłumaczeń dlaczego się nie udało :-) Na problem z zależnościami stworzyłem rozwiązanie i zgłosiłem je do Karaf-a ( &lt;a href=&#34;https://issues.apache.org/jira/browse/FELIX-2141&#34;&gt;FELIX 2141&lt;/a&gt;). W przyszłej wersji - 1.6 - wszyscy będą mogli skorzystać z polecenia &lt;code&gt;features:info -t&lt;/code&gt; które wyświetli całe drzewko zależności potrzebnych do zainstalowania nowych funkcjonalności.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Budowanie klienta usługi sieciowej w oparciu o Apache CXF</title>
+      <link>https://dywicki.pl/2008/09/budowanie-klienta-uslugi-sieciowej-w-oparciu-o-apache-cxf/</link>
+      <pubDate>Wed, 03 Sep 2008 09:28:27 +0000</pubDate>
+      <guid>https://dywicki.pl/2008/09/budowanie-klienta-uslugi-sieciowej-w-oparciu-o-apache-cxf/</guid>
+      <description>&lt;p&gt;W nawiązaniu do &lt;a href=&#34;http://blog.dywicki.pl/2008/07/23/budowanie-uslugi-sieciowej-w-oparciu-o-apache-cxf/&#34;&gt;poprzedniej noty o CXFie&lt;/a&gt;, którą napisałem jakiś czas temu, gonię aby uzupełnić brak konfiguracji klienta. Sam proces jest bardzo zbliżony do tworzenia klienta w oparciu o XFire. Nie jest wymagana duża ilość kodu Javy, a w zasadzie tylko dwa pliki XML (client.xml, &lt;em&gt;myservice.xml&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;Pierwszy z nich odpowiada za wczytanie wymaganych rozszerzeń CXFa oraz definicję bazowej konfiguracji fabryki z interceptorami. W interceptorach możemy skonfigurować logowanie, obsługę załączników czy standardów WS-Security etc. Wszystkie te ustawienia będą dziedziczone, a fabryki docelowych usług będą dodawać tylko adres, do odpytywania. Na koniec bean klienta będzie miał określony &lt;strong&gt;autowire&lt;/strong&gt; by nie przekazywać mu wszystkich własności.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Budowanie usługi sieciowej w oparciu o Apache CXF</title>
+      <link>https://dywicki.pl/2008/07/budowanie-uslugi-sieciowej-w-oparciu-o-apache-cxf/</link>
+      <pubDate>Wed, 23 Jul 2008 08:27:55 +0000</pubDate>
+      <guid>https://dywicki.pl/2008/07/budowanie-uslugi-sieciowej-w-oparciu-o-apache-cxf/</guid>
+      <description>&lt;p&gt;Od jakiegoś czasu w pracy do tworzenia usług sieciowych korzystam z &lt;a href=&#34;http://cxf.apache.org&#34;&gt;Apache CXF&lt;/a&gt;. Jako że biblioteka jest stosunkowo nowa i nie najlepiej udokumentowana postanowiłem przedstawić na blogu jak wygląda proces tworzenia.&lt;/p&gt;
+&lt;p&gt;CXF jest połączeniem kilku bibliotek - &lt;a href=&#34;http://cwiki.apache.org/YOKO/&#34;&gt;YOKO&lt;/a&gt;, &lt;a href=&#34;http://celtix.objectweb.org/&#34;&gt;Celtixa&lt;/a&gt; oraz &lt;a href=&#34;http://xfire.codehaus.org/&#34;&gt;XFire&lt;/a&gt;. Każda z nich wcześniej realizowała pewien fragment obecnej funkcjonalności CXF - YOKO obsługuje Corbę a XFire usługi sieciowe. Obecne CXF jest gotowy do używania &amp;ldquo;produkcyjnego&amp;rdquo;, ponieważ niedawno wyszedł z fazy inkubacji. :)&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Apache ServiceMix, Open Source ESB</title>
+      <link>https://dywicki.pl/2008/06/apache-servicemix-open-source-es/</link>
+      <pubDate>Sun, 22 Jun 2008 20:23:35 +0000</pubDate>
+      <guid>https://dywicki.pl/2008/06/apache-servicemix-open-source-es/</guid>
+      <description>Jakiś czas temu, jeszcze podczas pracy w poprzedniej firmie przypadło mi zadanie podpięcia się pod magistralę usług opartą o &lt;a href=&#34;http://servicemix.apache.org&#34;&gt;Apache Service Mix&lt;/a&gt; (SMX). Był to wówczas dla mnie temat zupełnie nowy, ba nawet nie wiedziałem z czym to się je. :) Koniec końców jednak podpięcie pod ESB (Enterprises Service Bus) nie było w ogóle trudne. Po jakimś czasie i drobnych przetasowaniach na płaszczyźnie zawodowej zająłem się SMX-em nie jako klient magistrali a osoba implementująca usługi na szynie a ten wpis jest drobną przeróbką prezentacji, którą przygotowałem w pracy.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Config-Admin on Middleware Warez</title>
+    <link>https://dywicki.pl/tag/config-admin/</link>
+    <description>Recent content in Config-Admin on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 20 Feb 2024 00:13:27 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/tag/config-admin/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Felix Config Admin with Fileinstall and array values</title>
+      <link>https://dywicki.pl/2024/02/felix-config-admin-with-fileinstall-and-array-values/</link>
+      <pubDate>Tue, 20 Feb 2024 00:13:27 +0000</pubDate>
+      <guid>https://dywicki.pl/2024/02/felix-config-admin-with-fileinstall-and-array-values/</guid>
+      <description>The Felix Fileinstall and Config Admin are two essential components of Apache Karaf runtime. I wrote about issues with array/list handling already twice. In 2015 and 2022. While earlier post was about syntax, later was about troubles with parsing of stored entries. Turns out, I&amp;rsquo;ve found a reason.</description>
+    </item>
+    <item>
+      <title>Apache Felix Configuration Admin and collections</title>
+      <link>https://dywicki.pl/2022/02/apache-felix-configuration-admin-and-collections/</link>
+      <pubDate>Wed, 16 Feb 2022 12:51:04 +0000</pubDate>
+      <guid>https://dywicki.pl/2022/02/apache-felix-configuration-admin-and-collections/</guid>
+      <description>A long time ago I wrote an post about &lt;a href=&#34;https://dywicki.pl/2015/02/apache-felix-configuration-admin-with-array-values/&#34;&gt;Configuration Admin and Arrays&lt;/a&gt;. Recently I attempted to use this feature with openHAB and I found that it doesn&amp;rsquo;t work with its configuration framework.</description>
+    </item>
+    <item>
+      <title>Apache Felix Configuration Admin with array values</title>
+      <link>https://dywicki.pl/2015/02/apache-felix-configuration-admin-with-array-values/</link>
+      <pubDate>Tue, 17 Feb 2015 10:47:48 +0000</pubDate>
+      <guid>https://dywicki.pl/2015/02/apache-felix-configuration-admin-with-array-values/</guid>
+      <description>&lt;p&gt;Apache Felix Configuration Admin (CM) is widely used component which is responsible for provisioning of one of most common OSGi services. Main responsibility of it is to bring configurations stored in property files to services.&lt;/p&gt;
+&lt;p&gt;While digging into Felix CM code I have found that it is able to create scalar values of certain type ie. Long, but also more complex structures such Array or Vector. The biggest issue was that I couldn’t find any way to force it to create array from string representation. Thanks to google ( &lt;a href=&#34;https://issues.apache.org/jira/browse/FELIX-4431&#34;&gt;FELIX-4431&lt;/a&gt; found on 4th page of results) and debugger goodnes I finally managed to do it. Here is recipe how to proceed.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

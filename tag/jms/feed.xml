@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Jms on Middleware Warez</title>
+    <link>https://dywicki.pl/tag/jms/</link>
+    <description>Recent content in Jms on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 18 Nov 2011 10:36:52 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/tag/jms/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preserving message order in ActiveMQ</title>
+      <link>https://dywicki.pl/2011/11/preserving-message-order/</link>
+      <pubDate>Fri, 18 Nov 2011 10:36:52 +0000</pubDate>
+      <guid>https://dywicki.pl/2011/11/preserving-message-order/</guid>
+      <description>&lt;p&gt;Few hours ago I&amp;rsquo;ve found an usefull &lt;a href=&#34;http://marcelojabali.blogspot.com/2011/11/preserving-message-order-with-apache.html&#34;&gt;post&lt;/a&gt; about preserving message order with &lt;a href=&#34;http://activemq.apache.org&#34;&gt;ActiveMQ&lt;/a&gt; written by &lt;a href=&#34;http://marcelojabali.blogspot.com/&#34;&gt;Marcelo Jabali&lt;/a&gt; from &lt;a href=&#34;http://www.fusesource.com/&#34;&gt;FUSE Source&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In his example Marcelo used broker feature called &lt;a href=&#34;http://activemq.apache.org/exclusive-consumer.html&#34;&gt;Exclusive Consumers&lt;/a&gt;. It lets send messages only to one consumer and if it fails then second consumer gets all messages. I think it is not the best idea if we have many messages to process. Why we wouldn&amp;rsquo;t use few consumers with preserved message order? Well, I was sure it is not possible, but during last training I&amp;rsquo;ve found solution.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

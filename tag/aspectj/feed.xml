@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Aspectj on Middleware Warez</title>
+    <link>https://dywicki.pl/tag/aspectj/</link>
+    <description>Recent content in Aspectj on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 24 Nov 2011 19:23:46 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/tag/aspectj/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running aspects under OSGi 4.2 with Karaf</title>
+      <link>https://dywicki.pl/2011/11/running-aspects-under-osgi-4-2-with-karaf/</link>
+      <pubDate>Thu, 24 Nov 2011 19:23:46 +0000</pubDate>
+      <guid>https://dywicki.pl/2011/11/running-aspects-under-osgi-4-2-with-karaf/</guid>
+      <description>One of bigest benefits of Java is byte code manipulation. You can change everything you want in your application without touching source code. That&amp;rsquo;s usefull for many cases, starting from legacy code, where we can&amp;rsquo;t simply modify and recompile library up to modern applications where aspects can be used to handle runtime exceptions. The most popular project is &lt;a href=&#34;http://eclipse.org/aspectj/&#34;&gt;AspectJ&lt;/a&gt; which is part of &lt;a href=&#34;http://eclipse.org&#34;&gt;Eclipse&lt;/a&gt; ecosystem, in this post I going to show you how to use AspectJ with Karaf.</description>
+    </item>
+  </channel>
+</rss>

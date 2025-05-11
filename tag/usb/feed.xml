@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Usb on Middleware Warez</title>
+    <link>https://dywicki.pl/tag/usb/</link>
+    <description>Recent content in Usb on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 09 May 2024 09:33:41 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/tag/usb/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Persistent serial identifiers with udev</title>
+      <link>https://dywicki.pl/2024/05/persistent-serial-identifiers-with-udev/</link>
+      <pubDate>Thu, 09 May 2024 09:33:41 +0000</pubDate>
+      <guid>https://dywicki.pl/2024/05/persistent-serial-identifiers-with-udev/</guid>
+      <description>It is not a secret that Linux can juggle USB serial ports between restarts. This is something which doesn&amp;rsquo;t happen on linux, but if you ever looked at internet forums on how to fix issue, you for sure found advice to use custom udev rules.</description>
+    </item>
+  </channel>
+</rss>

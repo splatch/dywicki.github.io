@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pages on Middleware Warez</title>
+    <link>https://dywicki.pl/pages/</link>
+    <description>Recent content in Pages on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 10 Jun 2011 15:02:12 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/pages/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>O mnie</title>
+      <link>https://dywicki.pl/o-mnie/</link>
+      <pubDate>Fri, 10 Jun 2011 15:02:12 +0000</pubDate>
+      <guid>https://dywicki.pl/o-mnie/</guid>
+      <description>&lt;p&gt;Hej,
+Nazywam się Łukasz a ten blog jest o tworzeniu middleware bez licencji. Zazwyczaj, jeśli nie kupujesz licencji znajdujesz crack, ale w naszym przypadku - używamy open source.&lt;/p&gt;
+&lt;p&gt;Zacząłem używać open source dawno temu, kiedy byłem programistą PHP. Od tamtego czasu spotkałem wiele projektów i zrobiłem w nich liczne poprawki. Generalnie, nie wszystkie projekty są gotowe do użycia produkcyjnego i nie będę zmuszał do produktyzacji tych kiepskich.&lt;/p&gt;
+&lt;p&gt;Jeśli jesteś zainteresowany moim profilem zawodowym, proszę odwiedź Linked In. Jestem otwarty na oferty pracy i konsultingu na całym świecie.
+&lt;a href=&#34;http://pl.linkedin.com/in/splatch&#34;&gt;&lt;img alt=&#34;View Łukasz Dywicki&amp;rsquo;s profile on LinkedIn&#34; loading=&#34;lazy&#34; src=&#34;http://www.linkedin.com/img/webpromo/btn_myprofile_160x33.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About me</title>
+      <link>https://dywicki.pl/about-me/</link>
+      <pubDate>Fri, 10 Jun 2011 14:59:40 +0000</pubDate>
+      <guid>https://dywicki.pl/about-me/</guid>
+      <description>&lt;p&gt;Hey,
+My name is Lukasz and this blog is about making middleware without licenses. Normally if you don&amp;rsquo;t buy license you crack something, but in our case - we use open source stuff.&lt;/p&gt;
+&lt;p&gt;I started using open source software long time ago, when I was a PHP programmer. From that time I meet various projects and I did number of hacks in them. Generally not all projects are ready to production use and I won&amp;rsquo;t force you to do production with some weak project.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

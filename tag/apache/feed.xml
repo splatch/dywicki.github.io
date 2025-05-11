@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Apache on Middleware Warez</title>
+    <link>https://dywicki.pl/tag/apache/</link>
+    <description>Recent content in Apache on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 26 Dec 2017 23:56:41 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/tag/apache/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing a staged release of project dependency</title>
+      <link>https://dywicki.pl/2017/12/testing-a-staged-release/</link>
+      <pubDate>Tue, 26 Dec 2017 23:56:41 +0000</pubDate>
+      <guid>https://dywicki.pl/2017/12/testing-a-staged-release/</guid>
+      <description>&lt;p&gt;One of most important things, if not the most important in software, is release process. There are whole books written about &amp;ldquo;shipping software&amp;rdquo; and software release is one of key parts which needs to happen in order to deliver our programs to end users. In this very short post I will give you a short tip about how to do a test drive of a release which is not published yet. One of main principles of maven central is &amp;ldquo;what goes there, stays there&amp;rdquo;, meaning that anything which becomes public will stay public. For that reason we, as software developers, want to deploy things which are free of any major issues at release time.
+&lt;a href=&#34;https://maven.apache.org/guides/development/guide-testing-releases.html&#34;&gt;Staged release&lt;/a&gt; is one of things which are supported by maven-release-plugin. Overall idea behind this is to let people have a test drive before deploying artifacts to public repositories from which they can not be removed. Of course this might be seen as completely unnecessary step if you release a small library, but could be extremely useful for bigger projects, avoiding something I would call a quick fix hiccup.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

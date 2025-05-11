@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Karaf on Middleware Warez</title>
+    <link>https://dywicki.pl/tag/karaf/</link>
+    <description>Recent content in Karaf on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 16 Feb 2022 12:51:04 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/tag/karaf/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Felix Configuration Admin and collections</title>
+      <link>https://dywicki.pl/2022/02/apache-felix-configuration-admin-and-collections/</link>
+      <pubDate>Wed, 16 Feb 2022 12:51:04 +0000</pubDate>
+      <guid>https://dywicki.pl/2022/02/apache-felix-configuration-admin-and-collections/</guid>
+      <description>A long time ago I wrote an post about &lt;a href=&#34;https://dywicki.pl/2015/02/apache-felix-configuration-admin-with-array-values/&#34;&gt;Configuration Admin and Arrays&lt;/a&gt;. Recently I attempted to use this feature with openHAB and I found that it doesn&amp;rsquo;t work with its configuration framework.</description>
+    </item>
+    <item>
+      <title>Apache Felix Configuration Admin with array values</title>
+      <link>https://dywicki.pl/2015/02/apache-felix-configuration-admin-with-array-values/</link>
+      <pubDate>Tue, 17 Feb 2015 10:47:48 +0000</pubDate>
+      <guid>https://dywicki.pl/2015/02/apache-felix-configuration-admin-with-array-values/</guid>
+      <description>&lt;p&gt;Apache Felix Configuration Admin (CM) is widely used component which is responsible for provisioning of one of most common OSGi services. Main responsibility of it is to bring configurations stored in property files to services.&lt;/p&gt;
+&lt;p&gt;While digging into Felix CM code I have found that it is able to create scalar values of certain type ie. Long, but also more complex structures such Array or Vector. The biggest issue was that I couldn’t find any way to force it to create array from string representation. Thanks to google ( &lt;a href=&#34;https://issues.apache.org/jira/browse/FELIX-4431&#34;&gt;FELIX-4431&lt;/a&gt; found on 4th page of results) and debugger goodnes I finally managed to do it. Here is recipe how to proceed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Advanced Apache Camel logging and best practices</title>
+      <link>https://dywicki.pl/2012/02/advanced-apache-camel-logging-and-best-practices/</link>
+      <pubDate>Tue, 28 Feb 2012 00:09:14 +0000</pubDate>
+      <guid>https://dywicki.pl/2012/02/advanced-apache-camel-logging-and-best-practices/</guid>
+      <description>Apache Camel supports a &lt;a href=&#34;http://camel.apache.org/mdc-logging.html&#34;&gt;mapped diagnostic context&lt;/a&gt; which can be used to improve log entries, but also there is a &lt;a href=&#34;http://camel.apache.org/log&#34;&gt;log component&lt;/a&gt; which makes it easier to create log entries. Together they can be used to create foundations of activity monitoring without need to deploy another tool or database.</description>
+    </item>
+    <item>
+      <title>Running aspects under OSGi 4.2 with Karaf</title>
+      <link>https://dywicki.pl/2011/11/running-aspects-under-osgi-4-2-with-karaf/</link>
+      <pubDate>Thu, 24 Nov 2011 19:23:46 +0000</pubDate>
+      <guid>https://dywicki.pl/2011/11/running-aspects-under-osgi-4-2-with-karaf/</guid>
+      <description>One of bigest benefits of Java is byte code manipulation. You can change everything you want in your application without touching source code. That&amp;rsquo;s usefull for many cases, starting from legacy code, where we can&amp;rsquo;t simply modify and recompile library up to modern applications where aspects can be used to handle runtime exceptions. The most popular project is &lt;a href=&#34;http://eclipse.org/aspectj/&#34;&gt;AspectJ&lt;/a&gt; which is part of &lt;a href=&#34;http://eclipse.org&#34;&gt;Eclipse&lt;/a&gt; ecosystem, in this post I going to show you how to use AspectJ with Karaf.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tag on Middleware Warez</title>
+    <link>https://dywicki.pl/tag/</link>
+    <description>Recent content in Tag on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 09 May 2024 09:33:41 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/tag/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux</title>
+      <link>https://dywicki.pl/tag/linux/</link>
+      <pubDate>Thu, 09 May 2024 09:33:41 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Udev</title>
+      <link>https://dywicki.pl/tag/udev/</link>
+      <pubDate>Thu, 09 May 2024 09:33:41 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/udev/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Usb</title>
+      <link>https://dywicki.pl/tag/usb/</link>
+      <pubDate>Thu, 09 May 2024 09:33:41 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/usb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Config-Admin</title>
+      <link>https://dywicki.pl/tag/config-admin/</link>
+      <pubDate>Tue, 20 Feb 2024 00:13:27 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/config-admin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Beckoff</title>
+      <link>https://dywicki.pl/tag/beckoff/</link>
+      <pubDate>Wed, 04 Oct 2023 11:43:56 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/beckoff/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bsd</title>
+      <link>https://dywicki.pl/tag/bsd/</link>
+      <pubDate>Wed, 04 Oct 2023 11:43:56 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/bsd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Twincat</title>
+      <link>https://dywicki.pl/tag/twincat/</link>
+      <pubDate>Wed, 04 Oct 2023 11:43:56 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/twincat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gohugo</title>
+      <link>https://dywicki.pl/tag/gohugo/</link>
+      <pubDate>Wed, 30 Aug 2023 23:04:29 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/gohugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nginx</title>
+      <link>https://dywicki.pl/tag/nginx/</link>
+      <pubDate>Wed, 30 Aug 2023 23:04:29 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/nginx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubectl</title>
+      <link>https://dywicki.pl/tag/kubectl/</link>
+      <pubDate>Wed, 03 May 2023 07:41:00 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/kubectl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Secrets</title>
+      <link>https://dywicki.pl/tag/secrets/</link>
+      <pubDate>Wed, 03 May 2023 07:41:00 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/secrets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Karaf</title>
+      <link>https://dywicki.pl/tag/karaf/</link>
+      <pubDate>Wed, 16 Feb 2022 12:51:04 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/karaf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://dywicki.pl/tag/docker/</link>
+      <pubDate>Sun, 08 Nov 2020 22:26:42 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maven</title>
+      <link>https://dywicki.pl/tag/maven/</link>
+      <pubDate>Tue, 27 Oct 2020 22:07:47 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/maven/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gitlab</title>
+      <link>https://dywicki.pl/tag/gitlab/</link>
+      <pubDate>Mon, 26 Oct 2020 21:09:27 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/gitlab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Canopen</title>
+      <link>https://dywicki.pl/tag/canopen/</link>
+      <pubDate>Fri, 04 Sep 2020 23:19:44 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/canopen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wireshark</title>
+      <link>https://dywicki.pl/tag/wireshark/</link>
+      <pubDate>Fri, 04 Sep 2020 23:19:44 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/wireshark/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mockito</title>
+      <link>https://dywicki.pl/tag/mockito/</link>
+      <pubDate>Wed, 29 Apr 2020 11:58:55 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/mockito/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unit-Tests</title>
+      <link>https://dywicki.pl/tag/unit-tests/</link>
+      <pubDate>Wed, 29 Apr 2020 11:58:55 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/unit-tests/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Osx</title>
+      <link>https://dywicki.pl/tag/osx/</link>
+      <pubDate>Tue, 28 Aug 2018 20:22:49 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/osx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apple</title>
+      <link>https://dywicki.pl/tag/apple/</link>
+      <pubDate>Thu, 25 Jan 2018 20:53:50 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/apple/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardware</title>
+      <link>https://dywicki.pl/tag/hardware/</link>
+      <pubDate>Thu, 25 Jan 2018 20:53:50 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/hardware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache</title>
+      <link>https://dywicki.pl/tag/apache/</link>
+      <pubDate>Tue, 26 Dec 2017 23:56:41 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/apache/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Screencast</title>
+      <link>https://dywicki.pl/tag/screencast/</link>
+      <pubDate>Mon, 11 Feb 2013 17:36:57 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/screencast/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Camel</title>
+      <link>https://dywicki.pl/tag/camel/</link>
+      <pubDate>Tue, 28 Feb 2012 00:09:14 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/camel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aspectj</title>
+      <link>https://dywicki.pl/tag/aspectj/</link>
+      <pubDate>Thu, 24 Nov 2011 19:23:46 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/aspectj/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Activemq</title>
+      <link>https://dywicki.pl/tag/activemq/</link>
+      <pubDate>Fri, 18 Nov 2011 10:36:52 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/activemq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jms</title>
+      <link>https://dywicki.pl/tag/jms/</link>
+      <pubDate>Fri, 18 Nov 2011 10:36:52 +0000</pubDate>
+      <guid>https://dywicki.pl/tag/jms/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

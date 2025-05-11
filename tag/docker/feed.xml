@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Docker on Middleware Warez</title>
+    <link>https://dywicki.pl/tag/docker/</link>
+    <description>Recent content in Docker on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 08 Nov 2020 22:26:42 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/tag/docker/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nginx: verify OIDC token before rewrite</title>
+      <link>https://dywicki.pl/2020/11/nginx-verify-oidc-token-before-rewrite/</link>
+      <pubDate>Sun, 08 Nov 2020 22:26:42 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/11/nginx-verify-oidc-token-before-rewrite/</guid>
+      <description>A while ago I managed to get Nginx and OpenID Connect working together. Obviously, there is a commercial plugin provided by Nginx authors, but for simpler cases we can use a a simpler way with &lt;code&gt;auth_request&lt;/code&gt; which works nicely with OIDC token introspection served by for example Keycloak.</description>
+    </item>
+  </channel>
+</rss>

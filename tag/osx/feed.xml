@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Osx on Middleware Warez</title>
+    <link>https://dywicki.pl/tag/osx/</link>
+    <description>Recent content in Osx on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 28 Aug 2018 20:22:49 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/tag/osx/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migration from OSX to Arch Linux</title>
+      <link>https://dywicki.pl/2018/08/migration-from-osx-to-arch-linux/</link>
+      <pubDate>Tue, 28 Aug 2018 20:22:49 +0000</pubDate>
+      <guid>https://dywicki.pl/2018/08/migration-from-osx-to-arch-linux/</guid>
+      <description>&lt;p&gt;It is already 12 months since I started using my (first since very long time) desktop PC. In my previous blog post I&amp;rsquo;ve described reasons why I decided to resign from Apple hardware. In this one I will tell you how I managed to drop OSX and its ecosystem with minor pains.&lt;/p&gt;
+&lt;p&gt;I feel that I owe you also some insights - which applications I had to swap and which I was lucky to keep. Because I work with Java on daily basis I do not have any major troubles with portability of my software, however just few out many programs is actually written in Java.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

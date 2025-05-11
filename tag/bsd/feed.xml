@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bsd on Middleware Warez</title>
+    <link>https://dywicki.pl/tag/bsd/</link>
+    <description>Recent content in Bsd on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 04 Oct 2023 11:43:56 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/tag/bsd/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TwinCAT/BSD with insecure ADS connection</title>
+      <link>https://dywicki.pl/2023/10/twincat-bsd-with-insecure-ads-connection/</link>
+      <pubDate>Wed, 04 Oct 2023 11:43:56 +0000</pubDate>
+      <guid>https://dywicki.pl/2023/10/twincat-bsd-with-insecure-ads-connection/</guid>
+      <description>The TwinCAT is automation software - both runtime and engineering environment from Beckhoff Automation. Since its early days it embedded &amp;ldquo;win&amp;rdquo;, which was a shortcut from windows. Today I&amp;rsquo;ve finally got a TwinCAT/BSD working within VM and had to enable old fashion ADS connection to integration developed within &lt;a href=&#34;https://plc4x.apache.org&#34;&gt;Apache PLC4X&lt;/a&gt; library and embedded in &lt;a href=&#34;https://connectorio.com/industrial-and-building-automation-monitoring-agent/&#34;&gt;ConnectorIO Agent&lt;/a&gt; software.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Maven on Middleware Warez</title>
+    <link>https://dywicki.pl/tag/maven/</link>
+    <description>Recent content in Maven on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 27 Oct 2020 22:07:47 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/tag/maven/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maven deploy plugin 3.0.0-M1</title>
+      <link>https://dywicki.pl/2020/10/maven-deploy-plugin-3-0-0-m1/</link>
+      <pubDate>Tue, 27 Oct 2020 22:07:47 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/10/maven-deploy-plugin-3-0-0-m1/</guid>
+      <description>Remote repositories are one of fundamental concepts promoted by Maven. Its use is quite common. It is handled by &lt;a href=&#34;https://maven.apache.org/plugins/maven-deploy-plugin/&#34;&gt;maven-deploy-plugin&lt;/a&gt;, so its migration is something you will probably notice sooner or later. This short post will explain changes in new version of plugin which you need to take care of when moving from 2.8 or earlier releases.</description>
+    </item>
+    <item>
+      <title>Gitlab CI for github fork</title>
+      <link>https://dywicki.pl/2020/10/gitlab-ci-for-github-fork/</link>
+      <pubDate>Mon, 26 Oct 2020 21:09:27 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/10/gitlab-ci-for-github-fork/</guid>
+      <description>One of most annoying things these days is managing CI/CD with multiple repositories. For quite long time github didn&amp;rsquo;t offer private repositories while gitlab did. This lead to situation where people been asking gitlab for additional features. One of these is support for mirroring git repositories from github to gitlab just to run pipelines. I happened to have the same requirement.</description>
+    </item>
+    <item>
+      <title>Releasing forked Maven projects with ease</title>
+      <link>https://dywicki.pl/2020/10/releasing-forked-maven-projects-with-ease/</link>
+      <pubDate>Fri, 23 Oct 2020 23:54:11 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/10/releasing-forked-maven-projects-with-ease/</guid>
+      <description>In this pretty short introduction I am going to describe you a trick which I learned recently while doing new CI/CD configuration for one of open source projects I work with.</description>
+    </item>
+    <item>
+      <title>Maven mirros and gitlab ci</title>
+      <link>https://dywicki.pl/2020/07/multiple-maven-mirros-gitlab-ci/</link>
+      <pubDate>Thu, 30 Jul 2020 12:23:37 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/07/multiple-maven-mirros-gitlab-ci/</guid>
+      <description>Over past couple of months I&amp;rsquo;ve been playing with gitlab ci as it brings a bit of refreshing breeze after years of struggle with Jenkins. Don&amp;rsquo;t get me wrong, I value what Jenkins did for us over past decade. I just think that maintenance of it is a bit of nightmare. Yet, I&amp;rsquo;ve reached a place where I had to adjust some more stuff for gitlab in order to get my builds straight.</description>
+    </item>
+    <item>
+      <title>Testing a staged release of project dependency</title>
+      <link>https://dywicki.pl/2017/12/testing-a-staged-release/</link>
+      <pubDate>Tue, 26 Dec 2017 23:56:41 +0000</pubDate>
+      <guid>https://dywicki.pl/2017/12/testing-a-staged-release/</guid>
+      <description>&lt;p&gt;One of most important things, if not the most important in software, is release process. There are whole books written about &amp;ldquo;shipping software&amp;rdquo; and software release is one of key parts which needs to happen in order to deliver our programs to end users. In this very short post I will give you a short tip about how to do a test drive of a release which is not published yet. One of main principles of maven central is &amp;ldquo;what goes there, stays there&amp;rdquo;, meaning that anything which becomes public will stay public. For that reason we, as software developers, want to deploy things which are free of any major issues at release time.
+&lt;a href=&#34;https://maven.apache.org/guides/development/guide-testing-releases.html&#34;&gt;Staged release&lt;/a&gt; is one of things which are supported by maven-release-plugin. Overall idea behind this is to let people have a test drive before deploying artifacts to public repositories from which they can not be removed. Of course this might be seen as completely unnecessary step if you release a small library, but could be extremely useful for bigger projects, avoiding something I would call a quick fix hiccup.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

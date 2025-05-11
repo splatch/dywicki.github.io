@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Category on Middleware Warez</title>
+    <link>https://dywicki.pl/category/</link>
+    <description>Recent content in Category on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 09 May 2024 09:33:41 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/category/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software</title>
+      <link>https://dywicki.pl/category/software/</link>
+      <pubDate>Thu, 09 May 2024 09:33:41 +0000</pubDate>
+      <guid>https://dywicki.pl/category/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Osgi</title>
+      <link>https://dywicki.pl/category/osgi/</link>
+      <pubDate>Tue, 20 Feb 2024 00:13:27 +0000</pubDate>
+      <guid>https://dywicki.pl/category/osgi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automation</title>
+      <link>https://dywicki.pl/category/automation/</link>
+      <pubDate>Wed, 04 Oct 2023 11:43:56 +0000</pubDate>
+      <guid>https://dywicki.pl/category/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>https://dywicki.pl/category/web/</link>
+      <pubDate>Wed, 30 Aug 2023 23:04:29 +0000</pubDate>
+      <guid>https://dywicki.pl/category/web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubectl</title>
+      <link>https://dywicki.pl/category/kubectl/</link>
+      <pubDate>Fri, 12 May 2023 08:39:00 +0000</pubDate>
+      <guid>https://dywicki.pl/category/kubectl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>https://dywicki.pl/category/kubernetes/</link>
+      <pubDate>Fri, 12 May 2023 08:39:00 +0000</pubDate>
+      <guid>https://dywicki.pl/category/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rants</title>
+      <link>https://dywicki.pl/category/rants/</link>
+      <pubDate>Mon, 26 Oct 2020 21:09:27 +0000</pubDate>
+      <guid>https://dywicki.pl/category/rants/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Uncategorized</title>
+      <link>https://dywicki.pl/category/uncategorized/</link>
+      <pubDate>Wed, 29 Apr 2020 11:58:55 +0000</pubDate>
+      <guid>https://dywicki.pl/category/uncategorized/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Middleware</title>
+      <link>https://dywicki.pl/category/middleware/</link>
+      <pubDate>Tue, 26 Dec 2017 23:56:41 +0000</pubDate>
+      <guid>https://dywicki.pl/category/middleware/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

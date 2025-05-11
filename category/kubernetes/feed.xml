@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kubernetes on Middleware Warez</title>
+    <link>https://dywicki.pl/category/kubernetes/</link>
+    <description>Recent content in Kubernetes on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 12 May 2023 08:39:00 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/category/kubernetes/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernets TLS secret with ca.crt field for mtls</title>
+      <link>https://dywicki.pl/2023/05/ingress-nginx-and-tls-secret-with-ca-crt-field/</link>
+      <pubDate>Fri, 12 May 2023 08:39:00 +0000</pubDate>
+      <guid>https://dywicki.pl/2023/05/ingress-nginx-and-tls-secret-with-ca-crt-field/</guid>
+      <description>By default kubernetes tls secret must consist two fields a &lt;code&gt;tls.key&lt;/code&gt; and &lt;code&gt;tls.crt&lt;/code&gt;. It works perfectly fine in most of the cases, but not when we need mutual tls which is handled by ingress-nginx. This kind of ingress requires a secret with a &amp;ldquo;ca.crt&amp;rdquo; field to validate client certs. Obviously it tricks a kubectl which can&amp;rsquo;t append more than standard.</description>
+    </item>
+    <item>
+      <title>One shot retrieval of TLS certificates from Kubernetes</title>
+      <link>https://dywicki.pl/2023/05/one-shot-retrieval-of-tls-certificates-from-kubernetes/</link>
+      <pubDate>Wed, 03 May 2023 07:41:00 +0000</pubDate>
+      <guid>https://dywicki.pl/2023/05/one-shot-retrieval-of-tls-certificates-from-kubernetes/</guid>
+      <description>I believe that I am not only one who needed to get a secret value out of kubernetes. Usual advice focus on use of &lt;code&gt;kubectl&lt;/code&gt; with json output and/or jsonpath. Problem is - the &lt;code&gt;kubectl&lt;/code&gt; jsonpath is limited thus result needs to be scanned further by jq. It works, but jq is not part of everyone&amp;rsquo;s working environment.</description>
+    </item>
+  </channel>
+</rss>

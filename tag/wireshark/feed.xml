@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Wireshark on Middleware Warez</title>
+    <link>https://dywicki.pl/tag/wireshark/</link>
+    <description>Recent content in Wireshark on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 04 Sep 2020 23:19:44 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/tag/wireshark/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Wireshark with CAN and CANopen</title>
+      <link>https://dywicki.pl/2020/09/using-wireshark-with-can-and-canopen/</link>
+      <pubDate>Fri, 04 Sep 2020 23:19:44 +0000</pubDate>
+      <guid>https://dywicki.pl/2020/09/using-wireshark-with-can-and-canopen/</guid>
+      <description>&lt;a href=&#34;http://wireshark.org/&#34;&gt;Wireshark&lt;/a&gt; is outstanding piece of software. I had few chances to make use of it, early in my IT days, then in one of bigger projects I worked on, and finally now - when I began working on industrial integration protocols.{{ double-space-with-newline }}This blog post will describe a journey I had with Wireshark over last couple of weeks and tell you why clicking couple of times everywhere you &lt;em&gt;CAN&lt;/em&gt; is sometimes better.</description>
+    </item>
+  </channel>
+</rss>

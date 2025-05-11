@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Camel on Middleware Warez</title>
+    <link>https://dywicki.pl/tag/camel/</link>
+    <description>Recent content in Camel on Middleware Warez</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 28 Feb 2012 00:09:14 +0000</lastBuildDate>
+    <atom:link href="https://dywicki.pl/tag/camel/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advanced Apache Camel logging and best practices</title>
+      <link>https://dywicki.pl/2012/02/advanced-apache-camel-logging-and-best-practices/</link>
+      <pubDate>Tue, 28 Feb 2012 00:09:14 +0000</pubDate>
+      <guid>https://dywicki.pl/2012/02/advanced-apache-camel-logging-and-best-practices/</guid>
+      <description>Apache Camel supports a &lt;a href=&#34;http://camel.apache.org/mdc-logging.html&#34;&gt;mapped diagnostic context&lt;/a&gt; which can be used to improve log entries, but also there is a &lt;a href=&#34;http://camel.apache.org/log&#34;&gt;log component&lt;/a&gt; which makes it easier to create log entries. Together they can be used to create foundations of activity monitoring without need to deploy another tool or database.</description>
+    </item>
+  </channel>
+</rss>
